@@ -1,4 +1,4 @@
-﻿namespace PneumoniaScanner
+﻿namespace PneumoniaAssistant
 {
     partial class InitialForm
     {
@@ -39,7 +39,7 @@
             // initialPhoto
             // 
             this.initialPhoto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.initialPhoto.Image = global::PneumoniaScanner.Properties.Resources.xrayPhoto;
+            this.initialPhoto.Image = global::PneumoniaAssistant.Properties.Resources.xrayPhoto;
             this.initialPhoto.Location = new System.Drawing.Point(44, 12);
             this.initialPhoto.Name = "initialPhoto";
             this.initialPhoto.Size = new System.Drawing.Size(325, 325);

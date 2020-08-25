@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PneumoniaScannerML.Model;
+using PneumoniaAssistantML.Model;
 
-namespace PneumoniaScanner
+namespace PneumoniaAssistant
 {
     public partial class UploadForm : Form
     {

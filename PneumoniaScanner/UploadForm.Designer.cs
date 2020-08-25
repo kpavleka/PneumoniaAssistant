@@ -1,4 +1,4 @@
-﻿namespace PneumoniaScanner
+﻿namespace PneumoniaAssistant
 {
     partial class UploadForm
     {

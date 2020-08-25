@@ -1,4 +1,4 @@
-﻿namespace PneumoniaScanner
+﻿namespace PneumoniaAssistant
 {
     partial class TreatmentForm
     {
@@ -54,7 +54,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PneumoniaScanner.Properties.Resources.treatmentPhoto;
+            this.pictureBox1.Image = global::PneumoniaAssistant.Properties.Resources.treatmentPhoto;
             this.pictureBox1.Location = new System.Drawing.Point(49, 53);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(684, 242);

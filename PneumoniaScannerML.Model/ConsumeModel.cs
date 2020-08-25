@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.ML;
-using PneumoniaScannerML.Model;
+using PneumoniaAssistantML.Model;
 
-namespace PneumoniaScannerML.Model
+namespace PneumoniaAssistantML.Model
 {
     public class ConsumeModel
     {
@@ -27,7 +27,7 @@ namespace PneumoniaScannerML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\Karlo\AppData\Local\Temp\MLVSTools\PneumoniaScannerML\PneumoniaScannerML.Model\MLModel.zip";
+            string modelPath = @"C:\Users\Karlo\AppData\Local\Temp\MLVSTools\PneumoniaAssistantML\PneumoniaAssistantML.Model\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 

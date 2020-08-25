@@ -9,12 +9,15 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2387E064-5911-4C2C-9635-1985EB9F4EF4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PneumoniaScanner</RootNamespace>
-    <AssemblyName>PneumoniaScanner</AssemblyName>
+    <RootNamespace>PneumoniaAssistant</RootNamespace>
+    <AssemblyName>PneumoniaAssistant</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,11 +30,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x64</PlatformTarget>
@@ -59,7 +59,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PneumoniaScanner.Program</StartupObject>
+    <StartupObject>PneumoniaAssistant.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -301,9 +301,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PneumoniaScannerML.Model\PneumoniaScannerML.Model.csproj">
+    <ProjectReference Include="..\PneumoniaScannerML.Model\PneumoniaAssistantML.Model.csproj">
       <Project>{eed78495-12de-4fe7-aadc-f85ce5f723d7}</Project>
-      <Name>PneumoniaScannerML.Model</Name>
+      <Name>PneumoniaAssistantML.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

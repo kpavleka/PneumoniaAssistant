@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PneumoniaScanner
+namespace PneumoniaAssistant
 {
     public partial class TreatmentForm : Form
     {

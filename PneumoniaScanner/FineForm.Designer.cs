@@ -1,4 +1,4 @@
-﻿namespace PneumoniaScanner
+﻿namespace PneumoniaAssistant
 {
     partial class FineForm
     {
@@ -38,7 +38,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PneumoniaScanner.Properties.Resources.doctorsPhoto;
+            this.pictureBox1.Image = global::PneumoniaAssistant.Properties.Resources.doctorsPhoto;
             this.pictureBox1.Location = new System.Drawing.Point(68, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(405, 397);

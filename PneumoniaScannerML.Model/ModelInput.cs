@@ -2,7 +2,7 @@
 
 using Microsoft.ML.Data;
 
-namespace PneumoniaScannerML.Model
+namespace PneumoniaAssistantML.Model
 {
     public class ModelInput
     {

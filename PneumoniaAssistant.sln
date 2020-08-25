@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneumoniaScanner", "PneumoniaScanner\PneumoniaScanner.csproj", "{2387E064-5911-4C2C-9635-1985EB9F4EF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneumoniaAssistant", "PneumoniaScanner\PneumoniaAssistant.csproj", "{2387E064-5911-4C2C-9635-1985EB9F4EF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PneumoniaScannerML.Model", "PneumoniaScannerML.Model\PneumoniaScannerML.Model.csproj", "{EED78495-12DE-4FE7-AADC-F85CE5F723D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PneumoniaAssistantML.Model", "PneumoniaScannerML.Model\PneumoniaAssistantML.Model.csproj", "{EED78495-12DE-4FE7-AADC-F85CE5F723D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
